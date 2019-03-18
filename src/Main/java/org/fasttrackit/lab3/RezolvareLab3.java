@@ -6,10 +6,10 @@ public class RezolvareLab3 {
 
 
 
-        int value1 = 5;
+        double value1 = 5.6;
 
-        int value2 = 7;
-                int mediaAritmetica = (value1 + value2) / 2;
+        double value2 = 7.5;
+                double mediaAritmetica = (value1 + value2) / 2;
 
         System.out.println("Media aritmentica a numerelor " + value1 + " si " + value2 + " este " + mediaAritmetica);
 
