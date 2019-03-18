@@ -7,7 +7,7 @@ public class RezolvareLab3 {
     static int n;
     static int[] tablou;
 
-    public static void main(String[] args) {
+    public static void main(String [] args) {
 
 
         double value1 = 5.6;
@@ -26,23 +26,23 @@ public class RezolvareLab3 {
             System.out.println("Dati elementul cu nr. " + (i + 1));
             tablou[i] = in.nextInt();
         }
-        System.out.println("elementul maxim este " + getMax(tablou));
+        System.out.println("elementul maxim este "+getMax(tablou));
 
     }
-
-    private static int getMax(int[] array) {
-        int max = array[0];
-        for (int i = 1; i < array.length; ++i) {
-            if (array[i] > max) {
-                max = array[i];
+            private static int getMax ( int[] array){
+            int max = array[0];
+            for (int i = 1; i < array.length; ++i) {
+                if (array[i] > max) {
+                    max = array[i];
+                }
             }
+            return max;
         }
-        return max;
-
 
 
     }
-}
+
+
 
 
 
