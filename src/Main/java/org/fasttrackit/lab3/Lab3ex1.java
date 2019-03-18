@@ -17,20 +17,11 @@ public class Lab3ex1 {
                 int num2 = in.nextInt();
 
 
-                // Perform arithmetic operations.
-                int sum 		= num1 + num2;
-                int difference 	= num1 - num2;
-                int product 	= num1 * num2;
-                int quotient	= num1 / num2;
-                int modulo	    = num1 % num2;
+                double mediaAritmetica = (num1 + num2) / 2;
+
+                System.out.println("Media aritmentica a numerelor " + num1 + " si " + num2 + " este " + mediaAritmetica);
 
 
-                // Print result to console.
-                System.out.println("Sum : "         + sum);
-                System.out.println("Difference : "  + difference);
-                System.out.println("Product : "     + product);
-                System.out.println("Quotient : "    + quotient);
-                System.out.println("Modulo : "      + modulo);
             }
         }
 
