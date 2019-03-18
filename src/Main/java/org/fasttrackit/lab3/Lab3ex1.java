@@ -1,17 +1,37 @@
 package org.fasttrackit.lab3;
 
+import java.util.Scanner;
+
+
 public class Lab3ex1 {
-    public static void main(String [] args) {
+
+            public static void main(String[] args) {
+
+                // Create scanner class object
+                Scanner in = new Scanner(System.in);
+
+                // Input two numbers from user
+                System.out.println("Enter first number :");
+                int num1 = in.nextInt();
+                System.out.println("Enter second number :");
+                int num2 = in.nextInt();
 
 
+                // Perform arithmetic operations.
+                int sum 		= num1 + num2;
+                int difference 	= num1 - num2;
+                int product 	= num1 * num2;
+                int quotient	= num1 / num2;
+                int modulo	    = num1 % num2;
 
 
-        int value1 = 5;
+                // Print result to console.
+                System.out.println("Sum : "         + sum);
+                System.out.println("Difference : "  + difference);
+                System.out.println("Product : "     + product);
+                System.out.println("Quotient : "    + quotient);
+                System.out.println("Modulo : "      + modulo);
+            }
+        }
 
-        int value2 = 7;
-        int mediaAritmetica = (value1 + value2) / 2;
 
-        System.out.println("Media aritmentica a numerelor " + value1 + " si " + value2 + " este " + mediaAritmetica);
-
-    }
-}
